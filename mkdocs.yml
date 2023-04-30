@@ -1,6 +1,53 @@
-site_name: qSelf Documentation
+site_name: qSelf
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: default
-    primary: white
+    primary: custom
+  font:
+    text: Overpass Mono
+    code: Overpass Mono
+  logo: assets/qself-logo-800x800.png
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/git-alt
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+extra_css:
+  - stylesheets/g-theme.css
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://gugulet.hu?src=qself
+    - icon: fontawesome/brands/github
+      link: https://github.com/gugulet-hu
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gugulet-hu/
+copyright: Copyright &copy; Gugulethu Hlekwayo. All rights reserved.
+repo_url: https://github.com/gugulet-hu/qself-process
+repo_name: qself-process
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.betterem
+  - toc:
+      permalink: true

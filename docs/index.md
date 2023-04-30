@@ -1,15 +1,15 @@
-# Welcome to MkDocs
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+nosce te ipsum, temet nosce
 
-## Commands
+## Data cycle
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## Documentation layout
 
     mkdocs.yml    # The configuration file.
     docs/
