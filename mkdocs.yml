@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: qSelf Documentation
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
