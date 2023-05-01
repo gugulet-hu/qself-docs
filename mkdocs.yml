@@ -53,7 +53,7 @@ plugins:
       cards: true
       cards_color:
         fill: "#828089"
-        text: "323036"
+        text: "#323036"
       cards_font: Overpass Mono
 
 # Extensions
