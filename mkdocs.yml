@@ -70,7 +70,6 @@ markdown_extensions:
       anchor_linenums: true
       use_pygments: true
       pygments_lang_class: true
-      auto_title: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
