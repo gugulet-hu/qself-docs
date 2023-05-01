@@ -26,8 +26,6 @@ theme:
 plugins:
   - search
   - tags
-  - git-revision-date-localized:
-      enable_creation_date: true
 extra_css:
   - stylesheets/g-theme.css
 extra:
