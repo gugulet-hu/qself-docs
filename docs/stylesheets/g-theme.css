@@ -1,3 +1,4 @@
+/* Change the colours of the root colour scheme */
 :root {
         --md-primary-fg-color: #FAF9F6;
         --md-primary-fg-color--light: #FAF9F6;
@@ -6,6 +7,7 @@
         --md-footer-bg-color: #FFFF;
 }
 
+/* Edit teh indigo accent colour scheme (no grey colour scheme) */
 [data-md-color-accent=indigo] {
         --md-primary-fg-color: #FAF9F6;
         --md-primary-fg-color--light: var(--md-primary-bg-color);
@@ -13,29 +15,35 @@
         --md-accent-fg-color: #CECCD2;
 }
 
+/* Remove the sahdow under the header */
 .md-header--shadow {
         box-shadow: none;
 }
 
+/* Make the logo in the header larger */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
         height: 2.5rem;
 }
 
+/* Do not display the site title in the header */
 .md-header__topic:first-child {
         display: none;
 }
 
+/* Use dark colour for the navigation links */
 .md-typeset a,
 .md-nav__item .md-nav__link--active {
         color: var(--md-primary-fg-color--dark);
 }
 
+/* Underline links in text on hover an focus */
 .md-typeset a:focus,
 .md-typeset a:hover {
         text-decoration: underline;
 }
 
+/* Change the colour of links on hover and focus */
 .md-nav__link:focus,
 .md-nav__link:hover,
 .md-typeset .headerlink:focus,
@@ -53,6 +61,7 @@ html .md-footer-meta.md-typeset a:hover {
         color: var(--md-primary-fg-color--dark);
 }
 
+/* Make the footer background white and the content dark */
 .md-footer,
 .md-footer-meta {
         background-color: white;
