@@ -1,4 +1,13 @@
+# General site details
 site_name: qSelf
+copyright: Copyright &copy; Gugulethu Hlekwayo. All rights reserved.
+
+# Repo info
+repo_url: https://github.com/gugulet-hu/qself-process
+repo_name: qself-process
+edit_uri: edit/main/docs/
+
+# Theming and style details
 theme:
   name: material
   palette:
@@ -21,13 +30,11 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.action.view # View the github page for the content
   icon:
     repo: fontawesome/brands/git-alt
-plugins:
-  - search
-  - tags
 extra_css:
-  - stylesheets/g-theme.css
+  - stylesheets/g-theme-min.css
 extra:
   generator: false
   social:
@@ -37,9 +44,22 @@ extra:
       link: https://github.com/gugulet-hu
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/gugulet-hu/
-copyright: Copyright &copy; Gugulethu Hlekwayo. All rights reserved.
-repo_url: https://github.com/gugulet-hu/qself-process
-repo_name: qself-process
+
+# Plugins
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - search
+  - tags
+  - social:
+      cards: true
+      cards_color:
+        fill: "#828089"
+        text: "323036"
+      cards_font: Overpass Mono
+
+# Extensions
 markdown_extensions:
   - abbr
   - admonition

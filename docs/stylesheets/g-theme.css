@@ -33,7 +33,6 @@
 
 .md-typeset a:focus,
 .md-typeset a:hover {
-        /* color: var(--md-primary-fg-color--dark); */
         text-decoration: underline;
 }
 
