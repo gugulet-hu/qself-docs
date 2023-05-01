@@ -32,7 +32,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.action.view # View the github page for the content
+    - content.action.view
   icon:
     repo: fontawesome/brands/git-alt
 extra_css:
