@@ -5,6 +5,7 @@ theme:
   palette:
     scheme: default
     primary: custom
+    accent: indigo
   font:
     text: Overpass Mono
     code: Overpass Mono
