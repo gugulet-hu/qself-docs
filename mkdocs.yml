@@ -1,7 +1,6 @@
 site_name: qSelf
 theme:
   name: material
-  custom_dir: overrides
   palette:
     scheme: default
     primary: custom
@@ -32,6 +31,9 @@ plugins:
 extra_css:
   - stylesheets/g-theme.css
 extra:
+  analytics:
+    provider: matomo
+    property: qself
   generator: false
   social:
     - icon: fontawesome/solid/globe
