@@ -1,0 +1,20 @@
+name: lint
+on:
+  push:
+    branches:
+      - main
+jobs:
+  prose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Vale
+        uses: errata-ai/vale-action@v1.4.0
+        with:
+          styles: |
+            https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+            config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
+            files: ./docs/
+        env:
+          GITHUB_TOKEN: $
