@@ -4,15 +4,9 @@ on:
     branches:
       - main
 jobs:
-  prose:
+  vale:
+    name: runner / vale
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
-      - name: Vale
-        uses: errata-ai/vale-action@v1.4.0
-        with:
-          styles: |
-            https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-        env:
-          GITHUB_TOKEN: $
+      - uses: actions/checkout@v3
+      - uses: errata-ai/vale-action@reviewdog
