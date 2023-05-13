@@ -57,7 +57,8 @@ html .md-footer-meta.md-typeset a,
         color: var(--md-primary-bg-color);
 }
 
-html .md-footer-meta.md-typeset a:hover {
+html .md-footer-meta.md-typeset a:hover,
+html .md-footer-meta.md-typeset a:focus {
         color: var(--md-primary-fg-color--dark);
 }
 
