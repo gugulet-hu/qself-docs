@@ -15,7 +15,11 @@
         --md-accent-fg-color: #CECCD2;
 }
 
-/* Remove the sahdow under the header */
+a {
+        color: var(--md-primary-bg-color);
+}
+
+/* Remove the shadow under the header */
 .md-header--shadow {
         box-shadow: none;
 }
