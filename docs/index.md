@@ -8,13 +8,13 @@ This documentation set covers the mechanism of collecting, analysing, and displa
 
 ## Principles
 
-**Own all of your data exclusively**
+**Own all of your data exclusively**<br>
 Avoid storing any data on external services, even temporarily. This especially applies to health data.
 
-**Delete nothing**
+**Delete nothing**<br>
 Preserve all collected data, as it may have an unimagined use in the future.
 
-**Automate as much as possible**
+**Automate as much as possible**<br>
 Automate as much of the collection of data as possible to avoid influencing the results. The process should not impinge on the output.
 
 ## Data cycle
