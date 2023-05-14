@@ -17,11 +17,11 @@
 
 /* Link colours */
 a {
-        color: var(--md-accent-fg-color) !important;
+        color: var(--md-primary-bg-color) !important;
 }
 
 a:hover {
-        color: var(--md-primary-bg-color) !important;
+        color: var(--md-accent-fg-color) !important;
         text-decoration: none !important;
 }
 
