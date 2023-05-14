@@ -43,3 +43,7 @@ Media (books, movies, tv, theatre), Productivity (pomodoro sessions), Emotional
 
 *[data]: "Here I define data as raw input, which is processed to become information. Wisdom and knowledge are higher levels of information alloyed with experience."
 
+## Roadmap
+
+Work on this project is planned and managed on this [task board](https://github.com/users/gugulet-hu/projects/1/views/5).
+
