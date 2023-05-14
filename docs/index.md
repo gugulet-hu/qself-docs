@@ -36,5 +36,5 @@ This list may grow and contract over time, as new data sources are added and oth
 
 [^1]: On this day, one of our data overlords decided that he would help us by using AI to prevent suicide, never mind the additional money he could make!
 
-*[data]: Here I define data as raw input, which is processed to become information. Wisdom and knowledge are higher levels of information alloyed with experience.
+*[data]: "Here I define data as raw input, which is processed to become information. Wisdom and knowledge are higher levels of information alloyed with experience."
 
