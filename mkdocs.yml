@@ -1,6 +1,6 @@
 # General site details
 site_name: qSelf
-copyright: Copyright &copy; Gugulethu Hlekwayo. All rights reserved.
+copyright: 'Copyright &copy; Gugulethu Hlekwayo. All rights reserved. <img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.gugulet.hu/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />'
 
 # Repo info
 repo_url: https://github.com/gugulet-hu/qself-process
@@ -82,3 +82,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+# Tracking tag
+extra_javascript:
+  - tracking/matomo.js

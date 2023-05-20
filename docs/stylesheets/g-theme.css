@@ -25,6 +25,11 @@ a:hover {
         text-decoration: none !important;
 }
 
+/* Paragraph font-size */
+.md-typeset {
+        font-size: .7rem;
+}
+
 /* Remove the shadow under the header */
 .md-header--shadow {
         box-shadow: none;
