@@ -1,6 +1,6 @@
 ---
-title: qSelf :: Gugulethu Hlekwayo
-description: An overview of my quantified self project, which tracks over 50 personal metrics.
+title: "qSelf :: Gugulethu Hlekwayo"
+description: "An overview of my quantified self project, which tracks over 50 personal metrics."
 ---
 
 According to legend, the first maxim of the Oracle of Delphi - said to spring from Apollo himself - is to know yourself. Or in Greek: _nosce te ipsum, temet nosce_. Repeated twice for emphasis and for nuance. Know yourself, to your own self be known. To know and have knowledge of yourself and then to process that knowledge. To know and to accept.
