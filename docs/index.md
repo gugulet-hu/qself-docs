@@ -1,5 +1,5 @@
 ---
-title: "qSelf :: Gugulethu Hlekwayo"
+title: "Overview"
 description: "An overview of my quantified self project, which tracks over 50 personal metrics."
 ---
 
