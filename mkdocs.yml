@@ -50,7 +50,6 @@ extra:
 # Plugins
 plugins:
   - search
-  - git-authors
   - glightbox:
       zoomable: false
       loop: false
