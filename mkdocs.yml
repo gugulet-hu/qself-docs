@@ -50,9 +50,7 @@ extra:
 # Plugins
 plugins:
   - search
-  - autolinks
   - git-authors
-  - mike
   - glightbox:
       zoomable: false
       loop: false
@@ -61,15 +59,7 @@ plugins:
       width: 80vw
       height: auto
       draggable: false
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
-      cache_safe: true
   - mkdocs-nav-weight:
-      section_renamed: true
       index_weight: -10
       warning: true
   - tags
