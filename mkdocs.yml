@@ -53,14 +53,6 @@ extra:
 # Plugins
 plugins:
   - search
-  - glightbox:
-      zoomable: false
-      loop: false
-      touchNavigation:
-      effect: fade
-      width: 80vw
-      height: auto
-      draggable: false
   - mkdocs-nav-weight:
       index_weight: -10
       warning: true
