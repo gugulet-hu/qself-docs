@@ -53,9 +53,6 @@ extra:
 # Plugins
 plugins:
   - search
-  - mkdocs-nav-weight:
-      index_weight: -10
-      warning: true
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
