@@ -39,6 +39,9 @@ extra_css:
   - stylesheets/g-theme-min.css
 extra:
   generator: false
+  analytics:
+    provider: matomo
+    property: foobar
   social:
     - icon: fontawesome/solid/globe
       link: https://gugulet.hu?src=qself
@@ -50,6 +53,7 @@ extra:
 # Plugins
 plugins:
   - search
+
   - glightbox:
       zoomable: false
       loop: false
@@ -97,7 +101,3 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-
-# Tracking tag
-extra_javascript:
-  - tracking/matomo.js
