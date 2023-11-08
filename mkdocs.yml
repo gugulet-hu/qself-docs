@@ -1,5 +1,6 @@
 # General site details
 site_name: qSelf
+site_url: "https://qself.gugulet.hu"
 copyright: "Copyright &copy; Gugulethu Hlekwayo. All rights reserved."
 
 # Repo info
@@ -38,9 +39,6 @@ theme:
 extra_css:
   - stylesheets/g-theme-min.css
 extra:
-  analytics:
-    provider: matomo
-    property: foobar
   generator: false
   social:
     - icon: fontawesome/solid/globe
@@ -56,10 +54,9 @@ plugins:
   - tags
   - social:
       cards: true
-      cards_color:
-        fill: "#828089"
-        text: "#323036"
-      cards_font: Overpass Mono
+      cards_layout_options:
+        background_color: "#828089"
+        font-family: Overpass Mono
 
 # Extensions
 markdown_extensions:
@@ -85,3 +82,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+## Analytics
+
+extra_javascript:
+  - tracking/matomo.js
