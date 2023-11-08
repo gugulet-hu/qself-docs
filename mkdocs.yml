@@ -38,10 +38,10 @@ theme:
 extra_css:
   - stylesheets/g-theme-min.css
 extra:
-  generator: false
   analytics:
     provider: matomo
     property: foobar
+  generator: false
   social:
     - icon: fontawesome/solid/globe
       link: https://gugulet.hu?src=qself
