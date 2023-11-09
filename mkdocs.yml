@@ -86,4 +86,6 @@ markdown_extensions:
 ## Analytics
 
 extra_javascript:
-  - tracking/matomo.js # For more info, see this issue: https://github.com/mkdocs/mkdocs/issues/1794
+  - path: /tracking/matomo.js # For more info, see this issue: https://github.com/mkdocs/mkdocs/issues/1794
+    defer: true
+    async: true
