@@ -20,7 +20,7 @@ theme:
     text: Overpass Mono
     code: Overpass Mono
   logo: assets/qself-logo-800x800.png
-  favicon: assets/qself-logo-200x200.png
+  favicon: assets/qself-favicon-32x32.png
   features:
     - content.code.copy
     - header.autohide
