@@ -6,10 +6,14 @@ tags:
         - JavaScript
         - CSS
         - Python
+        - Shell
         - Logic
+        - Manual
         - Database
         - Collect
+        - Validate
         - Display
+        - Sync
         - Analyse
         - Predict
         - Watch

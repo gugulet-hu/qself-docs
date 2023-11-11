@@ -43,11 +43,15 @@ theme:
       js: material/language-javascript
       css: material/language-css3
       python: material/language-python
+      shell: material/console
       logic: material/robot
+      manual: material/wheel-barrow
       database: material/database
-      collect: material/shape-plus
+      collect: material/collapse-all
+      validate: material/check-decagram
       display: material/fit-to-screen
       analyse: material/finance
+      sync: material/sync-circle
       predict: material/crystal-ball
       watch: material/watch
       mobile: material/cellphone-cog
@@ -61,8 +65,13 @@ extra:
     JavaScript: js
     CSS: css
     Python: python
+    Shell: shell
+    Manual: manual
+    Sync: sync
     Logic: logic
-    Database: datatbase
+    Database: database
+    Collect: collect
+    Validate: validate
     Display: display
     Analyse: analyse
     Predict: predict
