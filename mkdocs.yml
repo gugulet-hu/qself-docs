@@ -92,6 +92,7 @@ plugins:
   - awesome-pages
   - autolinks
   - tags
+  - mermaid2
   - git-revision-date-localized:
       enable_creation_date: true
   - social:
