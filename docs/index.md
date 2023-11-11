@@ -8,6 +8,7 @@ tags:
         - Python
         - Logic
         - Database
+        - Collect
         - Display
         - Analyse
         - Predict
