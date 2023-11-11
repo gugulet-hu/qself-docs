@@ -47,8 +47,8 @@ theme:
       database: fontawesome/solid/database
       display: fontawesome/solid/display
       analyse: fontawesome/solid/magnifying-glass-chart
-      predict: fontawesome/solid/chart-mixed-up-circle-currency
-      watch: fontawesome/solid/watch
+      predict: fontawesome/solid/wand-magic-sparkles
+      watch: fontawesome/solid/stopwatch
       mobile: fontawesome/solid/mobile
       laptop: fontawesome/solid/laptop
 extra_css:
