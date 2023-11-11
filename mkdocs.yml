@@ -22,8 +22,10 @@ theme:
   logo: assets/qself-logo-800x800.png
   favicon: assets/qself-logo-200x200.png
   features:
+    - content.code.copy
     - header.autohide
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
     - navigation.expand
@@ -36,10 +38,36 @@ theme:
     - content.action.view
   icon:
     repo: fontawesome/brands/git-alt
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css: fontawesome/brands/css3
+      python: fontawesome/brands/python
+      logic: fontawesome/solid/robot
+      database: fontawesome/solid/database
+      display: fontawesome/solid/display
+      analyse: fontawesome/solid/magnifying-glass-chart
+      predict: fontawesome/solid/chart-mixed-up-circle-currency
+      watch: fontawesome/solid/watch
+      mobile: fontawesome/solid/mobile
+      laptop: fontawesome/solid/laptop
 extra_css:
   - stylesheets/g-theme-min.css
 extra:
   generator: false
+  tags:
+    HTML: html
+    JavaScript: js
+    CSS: css
+    Python: python
+    Logic: logic
+    Database: datatbase
+    Display: display
+    Analyse: analyse
+    Predict: predict
+    Watch: watch
+    Mobile: mobile
+    Laptop: laptop
   social:
     - icon: fontawesome/solid/globe
       link: https://gugulet.hu?src=qself
