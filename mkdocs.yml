@@ -23,7 +23,6 @@ theme:
   favicon: assets/qself-favicon-32x32.png
   features:
     - content.code.copy
-    - header.autohide
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
