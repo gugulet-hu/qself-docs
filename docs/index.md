@@ -1,6 +1,19 @@
 ---
 title: "Overview"
 description: "An overview of my quantified self project, which tracks over 50 personal metrics."
+tags:
+        - HTML
+        - JavaScript
+        - CSS
+        - Python
+        - Logic
+        - Database
+        - Display
+        - Analyse
+        - Predict
+        - Watch
+        - Mobile
+        - Laptop
 ---
 
 According to legend, the first maxim of the Oracle of Delphi - said to spring from Apollo himself - is to know yourself. Or in Greek: _nosce te ipsum, temet nosce_. Repeated twice for emphasis and for nuance. Know yourself, to your own self be known. To know and have knowledge of yourself and then to process that knowledge. To know and to accept.
@@ -45,3 +58,5 @@ Media (books, movies, tv, theatre), Productivity (pomodoro sessions), Emotional
 ## Roadmap
 
 Work on this project is planned and managed on this [task board](https://github.com/users/gugulet-hu/projects/1/views/5).
+
+
