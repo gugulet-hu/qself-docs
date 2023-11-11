@@ -80,6 +80,8 @@ extra:
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
   - social:
       cards: true
       cards_layout_options:
@@ -104,8 +106,10 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
-      permalink: true
-  - pymdownx.snippets
+      permalink: false
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
