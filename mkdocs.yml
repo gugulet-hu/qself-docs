@@ -89,6 +89,8 @@ extra:
 # Plugins
 plugins:
   - search
+  - awesome-pages
+  - autolinks
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
