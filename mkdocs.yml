@@ -44,7 +44,8 @@ theme:
       css: material/language-css3
       python: material/language-python
       logic: material/robot
-      database: material/database-cog
+      database: material/database
+      collect: material/shape-plus
       display: material/fit-to-screen
       analyse: material/finance
       predict: material/crystal-ball
