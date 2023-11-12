@@ -19,8 +19,8 @@ theme:
   font:
     text: Overpass Mono
     code: Overpass Mono
-  logo: .src/qself-logo-800x800.png
-  favicon: .src/qself-favicon-200x200.ico
+  logo: src/qself-logo-800x800.png
+  favicon: src/qself-favicon-200x200.ico
   features:
     - content.code.copy
     - navigation.instant
