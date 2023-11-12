@@ -46,11 +46,11 @@ Automate as much of the collection of data as possible to avoid influencing the 
 
 ## Data collected
 
-This list may grow and contract over time, as new data sources are added and others are hidden - but data is never deleted.
+This list may grow and contract over time, as new data sources are added and others are hidden.
 
 **Financial:** Daily transactions (amount, time, date, category, subcategory, accounts, currency, location, brand, item, liquid balance), Investments (amount, asset type, region, growth/loss), Assets (details, cost, serial, logistics)
 
-**Health:** Exercise (reps, sets, exercises, bpm, location, weather), Metrics (heart rate, resting heart rate, average heart rate, weight, height, haemotocrit, haemoglobin, eosinophils, basophils, lymphocytes, monocytes, neutrophils, platelet count, red cell count, white cell count, mean cell haemoglobin, mean cell volume, mean cell volume, mean corpuscular haemoglobin, red blood width, esr, systolic, diastolic, waist circumference, body fat, chest circumference, thigh circumference, body fat mass, skeletal muscle mass, visceral fat, body water, total cholesterol, hdl cholesterol, ldl cholesterol, triglyceride, pGlucose fasting, anion gap, bicarbonate, chloride, potassium, sodium, urea, creatinine, b12, ferritin, tsh, freet4, thyroid peroxidase, eye axis, eye cylinder, eye sphere, vo2max, avgspo2, sperm motility, sperm count), Sleep (sleep phases, duration, location, weather, ambient light, sleep time, awake time)
+**Health:** Exercise (reps, sets, exercises, bpm, location, weather), Metrics (heart rate, resting heart rate, average heart rate, weight, height, haemotocrit, haemoglobin, eosinophils, basophils, lymphocytes, monocytes, neutrophils, platelet count, red cell count, white cell count, mean cell haemoglobin, mean cell volume, mean cell volume, mean corpuscular haemoglobin, red blood width, esr, systolic, diastolic, waist circumference, body fat, chest circumference, thigh circumference, body fat mass, skeletal muscle mass, visceral fat, body water, total cholesterol, hdl cholesterol, ldl cholesterol, triglyceride, pGlucose fasting, anion gap, bicarbonate, chloride, potassium, sodium, urea, creatinine, b12, ferritin, tsh, freet4, thyroid peroxidase, eye axis, eye cylinder, eye sphere, vo2max, avgspo2, sperm motility, sperm count), Sleep (sleep phases, duration, location, weather, air pressure, ambient light, sleep time, awake time)
 
 **Mental:** Media (books, movies, tv, theatre, exhibitions), Productivity (focus sessions), Activities (reading, writing, media, art, games, meditation, technical, media, piano, design)
 

@@ -6,10 +6,6 @@ nav:
   - Mental: mental
   - Reference: reference
   - Links:
-      - Automate: https://llamalab.com/automate/
-      - AutoTools: https://joaoapps.com/
-      - Kustom: https://help.kustom.rocks/
-      - Termux: https://termux.dev/en/
-      - Docs: https://github.com/gugulet-hu/qself-docs
-      - Process: https://github.com/gugulet-hu/qself-process
-      - Web: https://gugulet.hu?src=qself
+      - Docs repo: https://github.com/gugulet-hu/qself-docs
+      - Project repo: https://github.com/gugulet-hu/qself-process
+      - gugulet.hu: https://gugulet.hu?src=qself
