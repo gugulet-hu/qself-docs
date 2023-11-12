@@ -5,7 +5,7 @@ copyright: "Copyright &copy; Gugulethu Hlekwayo. All rights reserved."
 
 # Repo info
 repo_url: https://github.com/gugulet-hu/qself-process
-repo_name: qself-process
+repo_name: qself
 edit_uri: https://github.com/gugulet-hu/qself-docs/tree/main/docs
 
 # Theming and style details
@@ -19,8 +19,8 @@ theme:
   font:
     text: Overpass Mono
     code: Overpass Mono
-  logo: assets/qself-logo-800x800.png
-  favicon: assets/qself-favicon-200x200.ico
+  logo: .src/qself-logo-800x800.png
+  favicon: .src/qself-favicon-200x200.ico
   features:
     - content.code.copy
     - navigation.instant
