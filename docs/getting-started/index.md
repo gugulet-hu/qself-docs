@@ -15,9 +15,7 @@ Components are immutable, but the tools that make them work are replaceable and 
 
 ## Topology
 
-```mermaid
-
-```
+![The topology of the qSelf system from a wide view.](qs-topology-3333x3333.webp){width=750}
 
 ## Toolset
 The current toolset consists of the following. Each tool needs to be installed and you need to have a working knowledge of how to use them.

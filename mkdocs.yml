@@ -94,6 +94,7 @@ plugins:
   - mermaid2
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
   - social:
       cards: true
       cards_layout_options:

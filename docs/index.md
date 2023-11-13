@@ -42,7 +42,7 @@ Automate as much of the collection of data as possible to avoid influencing the 
 
 ## Data cycle
 
-![The data cycle of the qSelf project: collection, analysis, prediction, and display](data-cycle-800x800.webp)
+![The data cycle of the qSelf project: collection, analysis, prediction, and display](qs-data-cycle-3333x3333.webp){width=750}
 
 ## Data collected
 
