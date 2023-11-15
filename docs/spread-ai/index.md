@@ -202,5 +202,5 @@ This page is owned by Phileas Fogg, Junior Platform Engineer. If you don't under
 
 <!---
 Notes:
-Page built using MkDocs Material, GitHub Actions, Github Pages, and language liniting done with Vale using the Microsft Style Guide and write-good as plugins.
+Page built using MkDocs Material, GitHub Actions, Github Pages, and language linting done with Vale using the Microsft Style Guide and write-good as plugins.
 --->
