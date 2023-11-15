@@ -175,13 +175,13 @@ Notes:
 Collect the three most common errors or blocks that users run into when going through this process and offer solutions.
 Ask the SME for solutions to problems they commonly see or trawl support queries for content.
 --->
-**Common problem scenario 1**
+**Common problem scenario 1**<br>
 Aliquam non erat leo. Pellentesque eu consectetur ex. Aenean risus orci, lobortis ac tempor at, venenatis at mi. Nulla sed venenatis velit, posuere lacinia neque. Morbi tortor orci, blandit et mollis vitae, finibus et nisl. Etiam sed justo sem. Proin eget pretium risus. Fusce tempor nisl quam, id dapibus urna viverra et. Nam efficitur nisi eu molestie varius. Morbi ac scelerisque magna. Donec efficitur quam eleifend faucibus bibendum. Fusce quis dolor nulla. Maecenas nec cursus velit. Nunc vulputate leo a mi ullamcorper bibendum.
 
-**Common problem scenario 2**
+**Common problem scenario 2**<br>
 In hac habitasse platea dictumst. Aenean tempus felis vel metus sodales, nec tristique sapien efficitur. Aenean pharetra ante quis posuere interdum. Aliquam erat volutpat. Integer vulputate, velit commodo mollis pellentesque, augue risus vestibulum metus, at faucibus ipsum felis quis magna. Nam in congue massa. Pellentesque a vehicula arcu. Nulla auctor, lectus sed consequat convallis, ligula dui faucibus tellus, vel vulputate massa ligula nec risus.
 
-**Common problem scenario 3**
+**Common problem scenario 3**<br>
 Curabitur eget porta risus. Fusce egestas tortor ut aliquet facilisis. Suspendisse quis sollicitudin eros, vel malesuada erat. Donec ac purus ullamcorper, lobortis nisi ut, bibendum elit. Fusce gravida sapien eu metus vulputate pulvinar. Curabitur nisi leo, mollis eu fringilla at, interdum accumsan quam. Praesent a fermentum massa. In finibus mollis sapien, a rhoncus turpis porttitor a. Praesent feugiat felis lacinia lacus accumsan, nec suscipit urna pellentesque. Proin metus nulla, mattis ac arcu vitae.
 
 ---
