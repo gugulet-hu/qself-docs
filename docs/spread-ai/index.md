@@ -10,8 +10,8 @@ SPREAD Studio: Use the brand naming consistently. Spread iin all uppercase when 
 Spread: Always lowercase in normal copy.
 GitHub: Style the name in the same way that Github does in their content.
 Image Alt Text: Make sure to use descriptive text for all images. These are useful for SEO and site search. i.e ![description here](image link here)
-Image Title Text; For accessibility reasona, image titles should be clear and understandable. See https://www.w3.org/WAI/tutorials/images/
-Code indentattion: Exagerrate the indentation for easy reading and legibility. At least 8 spaces (or two tabs).
+Image Title Text: For accessibility reasons, image titles should be clear and understandable. See https://www.w3.org/WAI/tutorials/images/
+Code indentatation: Exaggerate the indentation for easy reading and legibility. At least 8 spaces (or two tabs).
 Bold text: Use bold for UI elements that are visible on screen.
 Code tags: Use code tags for field values and code.
 Numbered lists: Use numbered lists for things that need to be done in a specific order (and unordered lists for other lists).
@@ -44,7 +44,7 @@ To create and manage applications locally you need to have the following tools a
 <!---
 Notes:
 Questions for SME:
-- What are restrictions with running the applicastion locally?
+- What are restrictions with running the application locally?
 - What are the limitations of the application genreally? Number of queries, apps, etc
 - What are the security measures that need to be followed?
 --->
@@ -66,7 +66,7 @@ Running the local application has limitations that may affect your workflow:
 <!---
 Notes:
 A quickstart section is like 'Hello World'. It gives the reader confidence that they can use the tool.
-The example in the video takes detours and is not clear, whereas a Hello World needs to be simple and withiout the frills.
+The example in the video takes detours and is not clear, whereas a Hello World needs to be simple and without the frills.
 --->
 
 This quickstart guide will introduce you to some of the main features of SPREAD Studio - such as making data queries, styling your application, and deploying it to production. Before starting, make sure that your local environment is [set up correctly](#setting-up-your-local-environment). The process is laid out in the diagram, with more detail in the list items.
@@ -74,7 +74,7 @@ This quickstart guide will introduce you to some of the main features of SPREAD 
 <!---
 Notes:
 Documentation rot happens quickly with video and images. As much as possible use easily modifiable tools.
-Below we have a diagram created using meramid.js as an example of easy-to-maintain visuals. No need for a designer to create this.
+Below we have a diagram created using meramid.js as an example of easy-to-maintain visuals. No need for a designer to create or mantain this.
 --->
 
 ``` mermaid
@@ -156,7 +156,7 @@ For more information on creating GitHub repositories and keys, see [Create a Rep
 
 <!---
 Notes:
-All resources (such as the build.yml file) need to be provided directly, and not indirectly through complicated instructions
+All resources (such as the build.yml file) need to be provided directly, and not indirectly through complicated instructions.
 --->
 
 Download the [build.yml]() Github Action and add it to your applications repository. This action will run when you deploy any changes to Github. For more information on creating and running Actions, see [Creating Actions](https://docs.github.com/en/actions/creating-actions). One of the actions of build.yml is to generate a JSON file that is pushed to Amazon AWS.
@@ -164,8 +164,8 @@ Download the [build.yml]() Github Action and add it to your applications reposit
 ...
 <!---
 Notes:
-I stopped at this point, because the manual actions taht followed need to be automated somehow. The process seemed unstructured from here. I would contact
-the SME and ask them how this part of the process can be done better, without manually editing configuration files. Perhaps a CLi command that fetches the relevant text and places it in the right areas, but not what we currently have. A documentation writer is by necessity also in quality assurance and we can add value by noting processes that could be better.
+I stopped at this point, because the manual actions that followed need to be automated somehow. The process seemed unstructured from here. I would contact
+the SME and ask them how this part of the process can be done better, without manually editing configuration files. Perhaps a CLI command that fetches the relevant text and places it in the right areas, but not what we currently have. A documentation writer is by necessity also in quality assurance and we can add value by noting processes that could be better.
 --->
 
 ## Troubleshooting
