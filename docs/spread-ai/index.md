@@ -3,17 +3,51 @@ title: "Using SPREAD Studio locally"
 description: "Guidance on how to use SPREAD studio to create and manage applications."
 ---
 
+<!---
+LOCAL STYLE GUIDE (remember to include in the Global Style Guide)
+
+SPREAD Studio: Use the brand naming consistently. Spread iin all uppercase when referring to the studio application.
+Spread: Always lowercase in normal copy.
+GitHub: Style the name in the same way that Github does in their content.
+Image Alt Text: Make sure to use descriptive text for all images. These are useful for SEO and site search. i.e ![description here](image link here)
+Image Title Text; For accessibility reasona, image titles should be clear and understandable. See https://www.w3.org/WAI/tutorials/images/
+Code indentattion: Exagerrate the indentation for easy reading and legibility. At least 8 spaces (or two tabs).
+Bold text: Use bold for UI elements that are visible on screen.
+Code tags: Use code tags for field values and code.
+Numbered lists: Use numbered lists for things that need to be done in a specific order (and unordered lists for other lists).
+Admonitions: No more than three admonitions on the page, to avoid making it look cluttered.
+--->
+
 Using the SPREAD Studio application on your local environment allows you to test, debug, and work on your application before deploying it for general use. We generally recommend that you maintain version control of your application using git. For more on version control, see the [Version Control at Spread](#) page.
 
 ## Setting up your local environment
+
+<!---
+Notes:
+This content should start here. There is an assumption that the user has already set up their local environment.
+This section is critical before we jump into creating an application.
+
+Questions for SME:
+- What are knowledge requirements for using thsi tool?
+- What is the software needed to run the tool? (e.g. npm packages, CLI apps, OS, browser requirements)
+- What is needed from the Spread infrastucture to make this work locally? (such as API keys or any other authentication methods)
+--->
 
 To create and manage applications locally you need to have the following tools and knowledge:
 
 * An understanding of how to make queries to your database.
 * A code or text editor to edit your application. We recommend using [Visual Studio Code](https://code.visualstudio.com), with the [XYZ plugin](#) installed for easy code completion.
-* A SPREAD API key to fetch remote data. Create a separate API key with limited access rights for your local environment to limit the possibility of a security breach. For more on API keys, see [Creating and Managing API Keys](#).
+* A Spread API key to fetch remote data. Create a separate API key with limited access rights for your local environment to limit the possibility of a security breach. For more on API keys, see [Creating and Managing API Keys](#).
 
 ## Restrictions and security
+
+<!---
+Notes:
+Questions for SME:
+- What are restrictions with running the applicastion locally?
+- What are the limitations of the application genreally? Number of queries, apps, etc
+- What are the security measures that need to be followed?
+--->
 
 Running the local application has limitations that may affect your workflow:
 
@@ -29,8 +63,19 @@ Running the local application has limitations that may affect your workflow:
 
 ## Quickstart
 
-This quickstart guide will introduce you to some of the main features of SPREAD Studio - such as making data queries, styling your application, and deploying it to production. Before starting, make sure that your local environment has been [set up correctly](#setting-up-your-local-environment). The process is laid out in the diagram, with more detail in the list items.
+<!---
+Notes:
+A quickstart section is like 'Hello World'. It gives the reader confidence that they can use the tool.
+The example in the video takes detours and is not clear, whereas a Hello World needs to be simple and withiout the frills.
+--->
 
+This quickstart guide will introduce you to some of the main features of SPREAD Studio - such as making data queries, styling your application, and deploying it to production. Before starting, make sure that your local environment is [set up correctly](#setting-up-your-local-environment). The process is laid out in the diagram, with more detail in the list items.
+
+<!---
+Notes:
+Documentation rot happens quickly with video and images. As much as possible use easily modifiable tools.
+Below we have a diagram created using meramid.js as an example of easy-to-maintain visuals. No need for a designer to create this.
+--->
 
 ``` mermaid
 graph LR
@@ -91,6 +136,12 @@ Widgets to display the data are under the **Widgets** tab. For this demo we will
 You can also change the column order, make the columns editable, hide columns, and other options in the Properties window.
 
 #### 7. Style your application
+
+<!---
+Notes:
+This section was an unnecessary and complicated detour in the video. Styling is the frills and not really what you need to learn in a Hello World exercise.
+--->
+
 To set fonts, colours, borders, shadows, theme and other style settings click an open space in the central area. This brings up the options for styling the whole application in the Properties window on the right-hand side under **App settings** - and not just the Properties for a particular widget. You can also add widgets - such as buttons and headers - to make your user interface easy to use.
 
 To preview your application select **Deploy** in the top-right corner.
@@ -102,11 +153,47 @@ The default landing page for SPREAD Studio in a local environment is [local.spre
 
 For more information on creating GitHub repositories and keys, see [Create a Repo](https://docs.github.com/en/get-started/quickstart/create-a-repo). Any further changes to your application can be pushed to the connected repository when you select the **Deploy** button or when you push a commit from the working directory to GitHub.
 
+
+<!---
+Notes:
+All resources (such as the build.yml file) need to be provided directly, and not indirectly through complicated instructions
+--->
+
 Download the [build.yml]() Github Action and add it to your applications repository. This action will run when you deploy any changes to Github. For more information on creating and running Actions, see [Creating Actions](https://docs.github.com/en/actions/creating-actions). One of the actions of build.yml is to generate a JSON file that is pushed to Amazon AWS.
 
 ...
+<!---
+Notes:
+I stopped at this point, because the manual actions taht followed need to be automated somehow. The process seemed unstructured from here. I would contact
+the SME and ask them how this part of the process can be done better, without manually editing configuration files. Perhaps a CLi command that fetches the relevant text and places it in the right areas, but not what we currently have. A documentation writer is by necessity also in quality assurance and we can add value by noting processes that could be better.
+--->
+
+## Troubleshooting
+
+<!---
+Notes:
+Collect the three most common errors or blocks that users run into when going through this process and offer solutions.
+Ask the SME for solutions to problems they commonly see or trawl support queries for content.
+--->
+**Common problem scenario 1**
+Aliquam non erat leo. Pellentesque eu consectetur ex. Aenean risus orci, lobortis ac tempor at, venenatis at mi. Nulla sed venenatis velit, posuere lacinia neque. Morbi tortor orci, blandit et mollis vitae, finibus et nisl. Etiam sed justo sem. Proin eget pretium risus. Fusce tempor nisl quam, id dapibus urna viverra et. Nam efficitur nisi eu molestie varius. Morbi ac scelerisque magna. Donec efficitur quam eleifend faucibus bibendum. Fusce quis dolor nulla. Maecenas nec cursus velit. Nunc vulputate leo a mi ullamcorper bibendum.
+
+**Common problem scenario 2**
+In hac habitasse platea dictumst. Aenean tempus felis vel metus sodales, nec tristique sapien efficitur. Aenean pharetra ante quis posuere interdum. Aliquam erat volutpat. Integer vulputate, velit commodo mollis pellentesque, augue risus vestibulum metus, at faucibus ipsum felis quis magna. Nam in congue massa. Pellentesque a vehicula arcu. Nulla auctor, lectus sed consequat convallis, ligula dui faucibus tellus, vel vulputate massa ligula nec risus.
+
+**Common problem scenario 3**
+Curabitur eget porta risus. Fusce egestas tortor ut aliquet facilisis. Suspendisse quis sollicitudin eros, vel malesuada erat. Donec ac purus ullamcorper, lobortis nisi ut, bibendum elit. Fusce gravida sapien eu metus vulputate pulvinar. Curabitur nisi leo, mollis eu fringilla at, interdum accumsan quam. Praesent a fermentum massa. In finibus mollis sapien, a rhoncus turpis porttitor a. Praesent feugiat felis lacinia lacus accumsan, nec suscipit urna pellentesque. Proin metus nulla, mattis ac arcu vitae.
 
 ---
+
+<!---
+Notes:
+This is the most important part of the document:
+- Accountability: Who owns the document and is reposible for its upkeep?
+- Maintenance: When was it last reviewed?
+- Ownership: Who owns approval rights for changes to the documents? (i.e. who needs to understand this document?)
+- Fallback: Who is the fallback option if the accountable writer needs help improving the document? (usually Documentation)
+--->
 
 <p style="font-size:0.7em">
 Last reviewed by Gauthier Ralph, Value Engineer (2020.01.10).
