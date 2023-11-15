@@ -2,72 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://qself.gugulet.hu/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/financial/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/financial/assets/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/financial/investments/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/financial/transactions/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/getting-started/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/health/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/health/exercise/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/health/metrics/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/health/sleep/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/mental/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/mental/emotional/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/mental/media/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://qself.gugulet.hu/mental/productivity/</loc>
-         <lastmod>2023-11-13</lastmod>
+         <lastmod>2023-11-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qself.gugulet.hu/spread-ai/</loc>
+         <lastmod>2023-11-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qself.gugulet.hu/spread-ai/quickstart/</loc>
+         <lastmod>2023-11-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://qself.gugulet.hu/spread-ai/setting-up/</loc>
+         <lastmod>2023-11-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
