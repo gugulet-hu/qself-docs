@@ -18,3 +18,15 @@ gnupg
 imagemagick
 openssl
 it is
+nosce
+te
+ipsum
+temet
+haemotocrit
+esr
+hdl
+ldl
+pGlucose
+tsh
+tv
+
