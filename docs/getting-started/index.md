@@ -13,17 +13,37 @@ The qSelf project is made up of a number of inter-connected components:
 
 Components are immutable, but the tools that make them work are replaceable and interchangeable.
 
-## Topology
+**Diagram: Topology of the qSelf system**
 
-![The topology of the qSelf system from a wide view.](qs-topology-3333x3333.webp){width=750}
+![The topology of the qSelf system from a wide view.](qs-topology-3333x3333.webp "This is a Title"){width=750}
+
+## Install
+
+### 1. Install all applications and tools
+Install all applications in the toolset table. This includes CLI tools that are listed in the Termux row, and plugins for Automate.
+
+### 2. Clone the project repo
+Clone the project repo to the root of your user space on your mobile device using Termux and the following commands:
+
+```
+cd /storage/emulated/0/
+git clone git@github.com:gugulet-hu/qself-process.git
+```
+
+### 3. Import flows into Automate and diplays into Kustom
+Import the `latest.flo` files in each of the directories in the **qself-process/Automate/** folder. Inside Automate, the dot menu in the top-left corner includes the option to **Import**. Import the files in the **qself-process/Kustom/wallpapers/** folder into KLWP and import the files in the **qself-process/Kustom/watchfaces/** folder into KWCH.
+
+### 4. Configure the root settings
+Configure the root settings in **qself-process/Automate/.demo-config.json** file and rename the file to **.config.json**.
+
+### 5. Start the `1 Context` flow in Automate
 
 ## Toolset
-The current toolset consists of the following. Each tool needs to be installed and you need to have a working knowledge of how to use them.
 
 | Component | Tool | Device |  Description | Install | Learn |
 | --- | --- | :---: | --- | --- | --- |
 | Logical | Python | :material-laptop: | Python is a general purpose programming language used for data analysis and various scripts. | [Python](https://www.python.org/) |  [TreeHouse](https://teamtreehouse.com/tracks/beginning-python) |
-| | Automate | :material-cellphone: | Automate is a graphical code tool to create and manage logic on the mobile device. The project also requires these Tasker plugins: [AutoWear, AutoInput](https://joaoapps.com/), [Termux:Tasker](https://github.com/termux/termux-tasker), [Sleep as Android](https://docs.sleep.urbandroid.org/services/tasker_automate.html), and [Kustom](https://docs.kustom.rocks/) (the last two come with their respective apps). | [Google Play](https://play.google.com/store/apps/details?id=com.llamalab.automate) | [LlamaLab](https://llamalab.com/automate/doc/index.html) |
+| | Automate | :material-cellphone: | Automate is a graphical code tool to create and manage logic on the mobile device. The project also requires these Tasker plugins: [AutoWear, AutoInput](https://joaoapps.com/), [Termux:Tasker](https://github.com/termux/termux-tasker), [Sleep as Android](https://docs.sleep.urbandroid.org/services/tasker_automate.html), and [Kustom](https://docs.kustom.rocks/) (the last two apps come with their respective Automate plugins). | [Google Play](https://play.google.com/store/apps/details?id=com.llamalab.automate) | [LlamaLab](https://llamalab.com/automate/doc/index.html) |
 | Sensory | wearOS device | :material-watch:  | Any wearOS compatible smartwatch. The TicWatch Pro 5 is recommended for its battery life and general ease of use. It can also be rooted quite easily, unlike Samsung devices. | [TicWatch](https://www.mobvoi.com/us/pages/ticwatchpro5) | |
 | | Android smartphone | :material-cellphone: | The smartphone is a fallback option for certain types of sensory input, such as Steps. The Pixel series is a lean option without the junkware from other Android device manufacturers. You can overlay it with [Graphene OS](https://grapheneos.org/) to somewhat protect yourself from Google tracking and annoyances. | [Pixel](https://store.google.com/category/phones) | |
 | Input and Display | HTML | :material-laptop: | HTML is required foundational knowledge to create web screens to accept manual inputs. | | |
@@ -34,6 +54,8 @@ The current toolset consists of the following. Each tool needs to be installed a
 | Analytical | TBA | | | | |
 | Storage and Sync | SQLCipher | :material-cellphone: :material-laptop: | SQLCipher is the secure version of SQLite. The commands and queries are largely the same, except for the parts to access the database. | [GitHub](https://github.com/sqlcipher/sqlcipher) | [Zetetic](https://www.zetetic.net/sqlcipher/)  |
 | | TablePlus | :material-laptop: | GUI tool for relational databases. In this project used to manually edit the database when things go wrong. Also useful to create queries. | [TablePlus](https://tableplus.com/) | [Docs](https://docs.tableplus.com/) |
-| | Termux | :material-cellphone: | Termux is a terminal for Android that allows you to send commands for many popular application. For this project it is used for git commands and a couple of advanced techniques. | [GitHub](https://github.com/termux/termux-app/releases) | [Termux](https://termux.dev/en/) |
+| | Termux | :material-cellphone: | Termux is a terminal for Android that allows you to send commands for many popular application. For this project it is used for git commands and a couple of advanced techniques. The following packages are installed using the `pkg install <package>` command: curl, gh, git, gnupg, gnuplot, imagemagick, openssl, pinentry, python, sqlcipher, termux-api, and termux-tools. | [GitHub](https://github.com/termux/termux-app/releases) | [Termux](https://termux.dev/en/) |
+| | iTerm2 | :material-laptop: | iTerm is my preferred console for macOS. See the description for Termux for which CLI tools to install using the command `brew install <package>`. [Homebrew](https://brew.sh/) will also need to be installed. | [iTerm](https://iterm2.com/) | [Docs](https://iterm2.com/documentation.html) |
 | | Syncthing | :material-cellphone: :material-laptop: | Syncthing syncs folders and files across devices. Used to keep the project files updated between the laptop and the smartphone. | [Syncthing](https://syncthing.net/downloads/) | [Docs](https://docs.syncthing.net/) |
+
 

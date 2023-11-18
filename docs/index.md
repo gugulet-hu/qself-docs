@@ -40,10 +40,6 @@ Preserve all collected and validated data, as it may have an unimagined use in t
 **Automate as much as possible**<br>
 Automate as much of the collection of data as possible to avoid influencing the results. The process should not impinge on the output.
 
-## Data cycle
-
-![The data cycle of the qSelf project: collection, analysis, prediction, and display](qs-data-cycle-3333x3333.webp){width=750}
-
 ## Data collected
 
 This list may grow and contract over time, as new data sources are added and others are hidden.
@@ -53,6 +49,10 @@ This list may grow and contract over time, as new data sources are added and oth
 **Health:** Exercise (reps, sets, exercises, bpm, location, weather), Metrics (heart rate, resting heart rate, average heart rate, weight, height, haemotocrit, haemoglobin, eosinophils, basophils, lymphocytes, monocytes, neutrophils, platelet count, red cell count, white cell count, mean cell haemoglobin, mean cell volume, mean cell volume, mean corpuscular haemoglobin, red blood width, esr, systolic, diastolic, waist circumference, body fat, chest circumference, thigh circumference, body fat mass, skeletal muscle mass, visceral fat, body water, total cholesterol, hdl cholesterol, ldl cholesterol, triglyceride, pGlucose fasting, anion gap, bicarbonate, chloride, potassium, sodium, urea, creatinine, b12, ferritin, tsh, freet4, thyroid peroxidase, eye axis, eye cylinder, eye sphere, vo2max, avgspo2, sperm motility, sperm count), Sleep (sleep phases, duration, location, weather, air pressure, ambient light, sleep time, awake time)
 
 **Mental:** Media (books, movies, tv, theatre, exhibitions), Productivity (focus sessions), Activities (reading, writing, media, art, games, meditation, technical, media, piano, design)
+
+**Diagram: Data cycle**
+
+![The data cycle of the qSelf project: collection, analysis, prediction, and display](qs-data-cycle-3333x3333.webp){width=750}
 
 ## Roadmap
 

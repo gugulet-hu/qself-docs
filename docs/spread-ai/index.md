@@ -6,7 +6,7 @@ description: "Guidance on how to use SPREAD studio to create and manage applicat
 <!---
 LOCAL STYLE GUIDE (remember to include in the Global Style Guide)
 
-SPREAD Studio: Use the brand naming consistently. Spread iin all uppercase when referring to the studio application.
+SPREAD Studio: Use the brand naming consistently. Spread in all uppercase when referring to the studio application.
 Spread: Always lowercase in normal copy.
 GitHub: Style the name in the same way that Github does in their content.
 Image Alt Text: Make sure to use descriptive text for all images. These are useful for SEO and site search. i.e ![description here](image link here)
@@ -45,7 +45,7 @@ To create and manage applications locally you need to have the following tools a
 Notes:
 Questions for SME:
 - What are restrictions with running the application locally?
-- What are the limitations of the application genreally? Number of queries, apps, etc
+- What are the limitations of the application generally? Number of queries, apps, etc
 - What are the security measures that need to be followed?
 --->
 
@@ -144,7 +144,7 @@ This section was an unnecessary and complicated detour in the video. Styling is 
 
 To set fonts, colours, borders, shadows, theme and other style settings click an open space in the central area. This brings up the options for styling the whole application in the Properties window on the right-hand side under **App settings** - and not just the Properties for a particular widget. You can also add widgets - such as buttons and headers - to make your user interface easy to use.
 
-To preview your application select **Deploy** in the top-right corner.
+To preview your application select **Deploy** in the top-right corner. For more information on Styling, see section...
 
 #### 8. Add your application to the launcher page
 The default landing page for SPREAD Studio in a local environment is [local.spread.ai](http://local.spread.ai). To add your newly created application to this launcher page we need to connect our local copy of the application to a GitHub repository. Select the small arrow next to the **Deploy** button in the top-right corner.
