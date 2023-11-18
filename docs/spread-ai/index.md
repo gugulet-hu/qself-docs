@@ -159,7 +159,7 @@ Notes:
 All resources (such as the build.yml file) need to be provided directly, and not indirectly through complicated instructions.
 --->
 
-Download the [build.yml]() Github Action and add it to your applications repository. This action will run when you deploy any changes to Github. For more information on creating and running Actions, see [Creating Actions](https://docs.github.com/en/actions/creating-actions). One of the actions of build.yml is to generate a JSON file that is pushed to Amazon AWS.
+Download the [build.yml]() GitHub Action and add it to your applications repository. This action will run when you deploy any changes to GitHub. For more information on creating and running Actions, see [Creating Actions](https://docs.github.com/en/actions/creating-actions). One of the actions of build.yml is to generate a JSON file that is pushed to Amazon AWS.
 
 ...
 <!---
