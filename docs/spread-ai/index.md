@@ -198,7 +198,7 @@ This is the most important part of the document:
 <p style="font-size:0.7em">
 Last reviewed by Gauthier Ralph, Value Engineer (2020.01.10).
 
-This page is owned by Phileas Fogg, Junior Platform Engineer. If you don't understand the contents of this page or if the content is outdated, please help us make it better by emailing <a href="mailto: phileasf@spread.ai">phineasf@spread.ai</a> or post a message to the <a href="#">#ask-platform-team</a> channel on Slack. Alternatively, you can create a ticket on the <a href="">documentation board</a> and assign it to Jean Passepartout.</p>
+This page is owned by Phileas Fogg, Junior Platform Engineer. If you don't understand the contents of this page or if the content is outdated, please help us make it better by emailing <a href="mailto: phileasf@spread.ai">phileasf@spread.ai</a> or post a message to the <a href="#">#ask-platform-team</a> channel on Slack. Alternatively, you can create a ticket on the <a href="">documentation board</a> and assign it to Jean Passepartout.</p>
 
 <!---
 Notes:
