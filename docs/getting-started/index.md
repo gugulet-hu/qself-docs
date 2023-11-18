@@ -30,7 +30,7 @@ cd /storage/emulated/0/
 git clone git@github.com:gugulet-hu/qself-process.git
 ```
 
-### 3. Import flows into Automate and diplays into Kustom
+### 3. Import flows into Automate and displays into Kustom
 Import the `latest.flo` files in each of the directories in the **qself-process/Automate/** folder. Inside Automate, the dot menu in the top-left corner includes the option to **Import**. Import the files in the **qself-process/Kustom/wallpapers/** folder into KLWP and import the files in the **qself-process/Kustom/watchfaces/** folder into KWCH.
 
 ### 4. Configure the root settings

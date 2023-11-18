@@ -1,0 +1,20 @@
+qSelf
+SQLCipher
+toolset
+Termux
+repo
+Graphene
+Kustom
+Zetetic
+gh
+gnuplot
+pinentry
+sqlcipher
+iTerm
+Syncthing
+Tasker
+junkware
+gnupg
+imagemagick
+openssl
+it is
