@@ -37,7 +37,7 @@ Import the `latest.flo` files in each of the directories in the **qself-process/
 ### 4. Configure the root settings
 Configure the root settings in **qself-process/Automate/.demo-config.json** file and rename the file to **.config.json**.
 
-### 5. Start the `1 Context` flow in Automate
+### 5. Start the [`1 Context`](https://github.com/gugulet-hu/qself-process/tree/main/automate/1%20Context) flow in Automate
 
 ## Toolset
 

@@ -16,7 +16,7 @@ The financial aspect of the qSelf project tracks and processes expenses, investm
 * **Assets and Logistics:** Records asset purchases and monitors their value, state, and location with a logistics component. For more information see the [Assets](assets/index.md) page.
 
 ## Reconciliation
-To keep financial information accurate, the reconciliation flows run on a set schedule to check that the liquid money available, investment portfolio value, asset value, and other balances correspond with the reality. This is the primary function of the `4 Finances` flow, which serves all the other financial subflows.
+To keep financial information accurate, the reconciliation flows run on a set schedule to check that the liquid money available, investment portfolio value, asset value, and other balances correspond with the reality. This is the primary function of the [`4 Finances`](https://github.com/gugulet-hu/qself-process/tree/main/automate/4%20Finances) flow, which serves all the other financial subflows.
 
 _TBC_
 
