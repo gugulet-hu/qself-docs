@@ -119,3 +119,11 @@ html .md-footer-meta.md-typeset a:focus {
 .md-typeset mark {
         background-color: var(--md-accent-fg-color);
 }
+
+/* Hide stars and forks in git section */
+li.md-source__fact.md-source__fact--stars,
+li.md-source__fact.md-source__fact--forks {
+        display: none;
+}
+
+
