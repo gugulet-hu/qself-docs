@@ -108,3 +108,14 @@ html .md-footer-meta.md-typeset a:focus {
         background-color: var(--md-primary-fg-color);
         color: var(--md-primary-bg-color);
 }
+
+/* Change colour of search highlighting */
+
+.md-search-result__link:focus,
+.md-search-result__link:hover {
+        background-color: #E6E6E6;
+}
+
+.md-typeset mark {
+        background-color: var(--md-accent-fg-color);
+}
