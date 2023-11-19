@@ -123,7 +123,5 @@ html .md-footer-meta.md-typeset a:focus {
 /* Hide stars and forks in git section */
 li.md-source__fact.md-source__fact--stars,
 li.md-source__fact.md-source__fact--forks {
-        display: none;
+        display: none !important;
 }
-
-
