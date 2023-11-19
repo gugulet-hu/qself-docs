@@ -1,5 +1,4 @@
 ---
 title: "Assets"
-weight: 13
-description: "An overview of the asset management feature of the project."
+description: "An overview of the asset management and logistics features of the project."
 ---

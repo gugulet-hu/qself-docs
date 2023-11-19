@@ -88,7 +88,12 @@ extra:
 # Plugins
 plugins:
   - search
-  - awesome-pages
+  - mkdocs-nav-weight:
+      section_renamed: false
+      index_weight: -1
+      warning: true
+      reverse: false
+      headless_included: false
   - autolinks
   - tags
   - mermaid2

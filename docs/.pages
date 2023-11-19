@@ -1,9 +1,0 @@
-nav:
-  - Overview: index.md
-  - Getting Started: getting-started
-  - Financial: financial
-  - Spread AI: spread-ai
-  - Links:
-      - Docs repo: https://github.com/gugulet-hu/qself-docs
-      - Project repo: https://github.com/gugulet-hu/qself-process
-      - gugulet.hu: https://gugulet.hu?src=qself

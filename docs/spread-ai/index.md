@@ -1,5 +1,7 @@
 ---
 title: "Using SPREAD Studio locally"
+retitled: "Spread AI"
+headless: true
 description: "Guidance on how to use SPREAD studio to create and manage applications."
 ---
 

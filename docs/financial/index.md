@@ -1,12 +1,12 @@
 ---
 title: "Financial"
 description: "An overview of the financial aspect of the project."
+weight: 1
 tags:
         - HTML
         - JavaScript
         - CSS
         - Logic
-
 ---
 
 The financial aspect of the qSelf project tracks and processes expenses, investments, income, assets, and logistics:
