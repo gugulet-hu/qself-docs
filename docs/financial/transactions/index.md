@@ -1,6 +1,8 @@
 ---
 title: "Transactions"
 description: "An overview of the root financial feature of transaction tracking."
+weight: 10
+headless: true
 ---
 
 ## Transactions
