@@ -17,5 +17,5 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pillow cairosvg mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin mkdocs-autolinks-plugin mkdocs-mermaid2-plugin mkdocs-nav-weight
+      - run: pip install mkdocs mkdocs-material mkdocs-material-extensions pillow cairosvg mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin mkdocs-autolinks-plugin mkdocs-mermaid2-plugin mkdocs-nav-weight mkdocs-section-index
       - run: mkdocs gh-deploy --force

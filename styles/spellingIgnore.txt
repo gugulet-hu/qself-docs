@@ -37,3 +37,6 @@ wirelessly
 debloat
 adb
 autoWear
+homebrew
+mobvoi
+Powershell

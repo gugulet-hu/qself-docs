@@ -22,6 +22,7 @@ theme:
   logo: src/qself-logo-800x800.png
   favicon: src/qself-favicon-200x200.ico
   features:
+    - toc.integrate
     - content.code.copy
     - navigation.instant
     - navigation.instant.progress
@@ -29,7 +30,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
-    - toc.integrate
     - toc.follow
     - navigation.top
     - search.suggest
@@ -88,6 +88,7 @@ extra:
 # Plugins
 plugins:
   - search
+  - section-index
   - mkdocs-nav-weight:
       section_renamed: false
       index_weight: -1
@@ -126,6 +127,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       permalink: false
+      toc_depth: 2
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -133,6 +135,18 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+# Navigation
+
+nav:
+  - Overview: index.md
+  - Getting started: getting-started/index.md
+  - Financial:
+      - financial/index.md
+      - Transactions: financial/transactions/index.md
+  - Reference:
+      - reference/index.md
+      - Devices: reference/devices/index.md
 
 ## Analytics
 

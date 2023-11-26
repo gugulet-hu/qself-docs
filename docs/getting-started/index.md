@@ -1,7 +1,6 @@
 ---
 title: "Getting started"
 description: "Getting all the prerequisite tools and software needed to get the project going."
-weight: 0
 ---
 
 The qSelf project is made up of a number of inter-connected components:

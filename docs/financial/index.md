@@ -1,7 +1,6 @@
 ---
 title: "Financial"
 description: "An overview of the financial aspect of the project."
-weight: 1
 tags:
         - HTML
         - JavaScript

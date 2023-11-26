@@ -1,11 +1,8 @@
 ---
 title: "Transactions"
 description: "An overview of the root financial feature of transaction tracking."
-weight: 10
-headless: true
 ---
 
-## Transactions
 
 All financial tracking starts as a transaction, which has the following structure.
 
