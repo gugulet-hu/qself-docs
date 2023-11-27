@@ -1,6 +1,6 @@
 ---
 title: "Devices"
-description: "Some tips and tricks for working with the devices that enable the project."
+description: "Some tips and tricks for working with the devices that enable the project." q
 tags:
         - Watch
         - Mobile
@@ -9,7 +9,7 @@ tags:
 
 ## :material-cellphone: Mobile
 
-The mobile device used in the qSelf project needs to run the Android operating system; preferably the latest version. Most manufacturers add cruft to their devices, so the Pixel series is recommended for its focus on the pure Android. Furthermore, the Graphene-flavoured version of Android gives you more control of your privacy and device use compared to standard Android. The device should be unrooted, but with [Developer options](https://www.howtogeek.com/129728/how-to-enable-developer-options-menu-and-enable-and-usb-debugging-on-android/) enabled. This lets you use the Android Debug Bridge (ADB).
+The mobile device used in the qSelf project needs to run the Android operating system; preferably the latest version. Most manufacturers add cruft to their devices, so the Pixel series is recommended for its focus on the pure Android experience. Furthermore, the Graphene-flavoured version of Android gives you more control of your privacy and device use compared to standard Android. The device should be unrooted, but with [Developer options](https://www.howtogeek.com/129728/how-to-enable-developer-options-menu-and-enable-and-usb-debugging-on-android/) enabled. This lets you use the Android Debug Bridge (ADB).
 
 To install Graphene, see their [user guide](https://grapheneos.org/install/) for instructions.
 
