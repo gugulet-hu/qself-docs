@@ -1,6 +1,6 @@
 ---
 title: "Devices"
-description: "Some tips and tricks for working with the devices that enable the project." q
+description: "Some tips and tricks for working with the devices that enable the project."
 tags:
         - Watch
         - Mobile
