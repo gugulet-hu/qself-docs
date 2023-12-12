@@ -21,7 +21,7 @@ The commands that follow can help you debloat your device and make it run smooth
 
 ### Connect to device
 
-Once you enabled ADB via wi-fi and you have the device's address you can connect to the device run the following command from your terminal or console.
+Once you have enabled ADB via wi-fi and you have the device's address you can connect to the device run the following command from your terminal or console.
 
 === "Code"
 
