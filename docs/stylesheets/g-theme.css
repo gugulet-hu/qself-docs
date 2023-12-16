@@ -10,6 +10,7 @@
 
 [data-md-color-scheme=default] {
         --md-default-bg-color: #FAF9F6;
+        --md-admonition-bg-color: white;
 }
 
 /* Edit the indigo accent colour scheme (no grey colour scheme) */
@@ -124,4 +125,10 @@ html .md-footer-meta.md-typeset a:focus {
 li.md-source__fact.md-source__fact--stars,
 li.md-source__fact.md-source__fact--forks {
         display: none !important;
+}
+
+/* Fixing admonitions */
+
+.md-typeset .admonition, .md-typeset details {
+        border: none;
 }
