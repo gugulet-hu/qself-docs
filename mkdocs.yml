@@ -103,7 +103,7 @@ plugins:
       cards: true
       cards_layout_options:
         background_color: "#828089"
-        font-family: Overpass Mono
+        font_family: Overpass Mono
 
 # Extensions
 markdown_extensions:
