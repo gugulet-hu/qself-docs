@@ -6,11 +6,12 @@
         --md-primary-bg-color: #828089;
         --md-footer-bg-color: #FAF9F6;
         --md-default-bg-color: #FAF9F6;
+        --md-admonition-bg-color: white !important;
 }
 
 [data-md-color-scheme=default] {
         --md-default-bg-color: #FAF9F6;
-        --md-admonition-bg-color: white;
+        --md-admonition-bg-color: white !important;
 }
 
 /* Edit the indigo accent colour scheme (no grey colour scheme) */
@@ -130,5 +131,5 @@ li.md-source__fact.md-source__fact--forks {
 /* Fixing admonitions */
 
 .md-typeset .admonition, .md-typeset details {
-        border: none;
+        border: none !important;
 }
